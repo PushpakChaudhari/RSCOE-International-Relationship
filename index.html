@@ -1,0 +1,2188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css">
+    <title id="title">Hello, world!</title>
+
+
+    <style>
+		.but{
+			padding: 5px;
+		}
+
+      .text-white{
+        font-size: 100%;
+      }
+      
+      .newtext{
+        font-size: 90%;
+        color: #b28530;
+        padding-left: 0%;
+        padding-right: 0%;
+      }
+      .container1 {
+        position: relative;
+        width: 40%;
+      }
+      
+      .image1 {
+        justify-content: center;
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color:#8e0202;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }
+      
+      .container1:hover .overlay {
+        text-align: center;
+        font-size: 10px;
+        height: 100%;
+      }
+      
+      .text {
+        margin-top:40%;
+        color: #b28530;
+        font-size:5px;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        -webkit-transform: translate(-60%, -60%);
+        -ms-transform: translate(-70%, -70%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      </style>
+  </head>
+  <body style="font-size: 14px; background-color: #f5f5f5; margin: 0;">
+    <div class="container-fluid"> 
+      <h1 class="main" style="text-align: center;">Office of International Relations (OIR)</h1>
+      <hr>
+      <div class="row  justify-content-center mt-3">
+        <nav class="menu side-box col-md-2 d-flex flex-column side_menu"  style="font-size: larger;min-width:max-content;max-width:300px;margin:5px">
+          <header>Menu </header>
+          <ol style="background: rgba(222, 184, 135, 0.701);">
+              
+              <li class="menu-item"><a href="#0">About IR</a></li>
+              <li class="menu-item">
+                  <a href="#0">IR Coordinators</a>
+                
+              </li>
+              <li class="menu-item" >
+                  <a href="#0">Partnerships</a></li>
+              <!-- <li class="menu-item"><a href="#0">Student Mobility</a></li> -->
+              <li class="menu-item" >
+                  <a href="#0">IR Activities</a></li>
+                  <li class="menu-item" >
+                    <a href="#0">International Research Grant</a></li>
+              <li class="menu-item" ><a href="#0">MS Student's Corner</a></li>
+              <li class="menu-item" ><a href="#0">International Guest Visits</a></li>
+              <li class="menu-item" ><a href="#0">Testimonials</a></li>
+              <li class="menu-item" > <a href="#0">Internship Expenses</a></li>
+              <li class="menu-item" ><a href="#0">International Visit Of RSCOE</a></li>
+              <li class="menu-item" ><a href="#0">Contact Us</a></li>
+                      
+          </ol>    </nav>
+        
+        <div class="flex col-md-8" id="content" style="font-size: large;background-color:#faebd7ad; padding: 20px; margin:0%;min-width:350px;justify-content:center">
+          The Office of International Relations (OIR) of RSCOE strives hard for partnerships with outstanding academic and other institutions, universities across the globe. The vision behind this is to expand the student experience of learning, Enhance exposure to various academic cultures, faculty growth and contributions, and the impact of our research.
+          <br>                  <div class="mb-4">
+            <h3 class="stext border-golden-bottom">International Programs</h3>
+
+
+            <h5 class="text-theme-dark border-golden-bottom mt-4">
+                Faculty Exchange Programs
+            </h5>
+            <div class="text-justify px-3 px-md-5">
+                <p>
+                    The programs are designed to facilitate platforms for various faculties around the world to visit Indian institutions for collaborations and research projects. It goes on to create channels for Indian faculties to visit Universities all across the world.
+                </p>
+            </div>
+
+            <h5 class="text-theme-dark border-golden-bottom mt-2">
+                Student Exchange Programs
+            </h5>
+            <div class="text-justify  px-3 px-md-5">
+                <p>
+                    The programs provide Opportunities for Indian Students to study in the various Universities across the world for a specified period. They also provide learning platforms for students from around the world to study in India.
+                </p>
+            </div>
+
+            <h5 class="text-theme-dark border-golden-bottom mt-4">
+                Study Abroad Programs
+            </h5>
+            <div class="text-justify px-3 px-md-5">
+                <p>
+                    The program is designed to create full time study opportunities for students to further their studies in various countries across the world. The process includes assistance in admission procedures, counseling to students and training students in IELTS.
+                </p>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+ <script>
+  // Get all the menu items
+  const menuItems = document.querySelectorAll('.menu-item');
+
+  // Add a click event listener to each menu item
+  menuItems.forEach((item) => {
+    item.addEventListener('click', () => {
+      // Get the selected menu item's text
+      const selectedText = item.firstElementChild.innerText;
+
+      // Change the title
+      document.querySelector('#title').innerText = `Office of International Relations (OIR) - ${selectedText}`;
+
+      // Change the content of the div
+      const divContent = document.querySelector('#content');
+     if (selectedText === 'About IR') {
+        divContent.innerHTML= `  The Office of International Relations (OIR) of RSCOE strives hard for partnerships with outstanding academic and other institutions, universities across the globe. The vision behind this is to expand the student experience of learning, Enhance exposure to various academic cultures, faculty growth and contributions, and the impact of our research.
+              <br>                  <div class="mb-4">
+                <h3 class="stext border-golden-bottom">International Programs</h3>
+
+
+                <h5 class="text-theme-dark border-golden-bottom mt-4">
+                    Faculty Exchange Programs
+                </h5>
+                <div class="text-justify px-3 px-md-5">
+                    <p>
+                        The programs are designed to facilitate platforms for various faculties around the world to visit Indian institutions for collaborations and research projects. It goes on to create channels for Indian faculties to visit Universities all across the world.
+                    </p>
+                </div>
+
+                <h5 class="text-theme-dark border-golden-bottom mt-2">
+                    Student Exchange Programs
+                </h5>
+                <div class="text-justify  px-3 px-md-5">
+                    <p>
+                        The programs provide Opportunities for Indian Students to study in the various Universities across the world for a specified period. They also provide learning platforms for students from around the world to study in India.
+                    </p>
+                </div>
+
+                <h5 class="text-theme-dark border-golden-bottom mt-4">
+                    Study Abroad Programs
+                </h5>
+                <div class="text-justify px-3 px-md-5">
+                    <p>
+                        The program is designed to create full time study opportunities for students to further their studies in various countries across the world. The process includes assistance in admission procedures, counseling to students and training students in IELTS.
+                    </p>
+                </div>
+            </div>
+        `;
+      } else if (selectedText === 'IR Coordinators') {
+        divContent.innerHTML = `<h3 class="main-text">Dean International Relations</h3><div class="card mb-3" style="margin:20px;border-radius: 25% 0 25% 0; padding:5px;max-width:80%">
+          <div class="row g-0 dean-box " style="padding: 5px;
+          margin: -5px;" >
+            <div class="col-md-4" style="padding-left: 63px;padding-top: 5%;">
+              <div class="row" style="padding-left:15px">
+              <img src="dean.png" class="dean img-fluid rounded-start " alt="..." width="115px">
+            </div>
+            <div class="row main"  style="flex:1; padding-left: 9%;" >
+              Dr. Binod Kumar Dean
+              <br>(International Relations)  </div>
+          </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <p class="card-text" style="font-size: 12px;font-family: 'Courgette', cursive;color:#8e0203">As the Dean of International Relations, I feel that in this age of globalization, an academic journey without internationalization is incomplete. As a result, OIR's efforts are focused on supporting and establishing a platform for students to acquire much-needed worldwide exposure. RSCOE occupies an important place in the international research and academic community.  As part of its ongoing efforts to maintain and strengthen its position in the international academic arena, RSCOE has been encouraging the internationalization of higher education, by participating in faculty, researcher and student exchange and collaboration programs. The office of Dean, International Relations facilitates formal agreements (MoUs) between RSCOE and foreign universities.  The exchange of students, faculty, research scholars and administrative staff and their participation in collaboration programmes at the international level.</p>
+                               </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h3 class="main-text">International Relations Coordinators</h3>
+
+
+
+    <!--another style
+      
+      <div class="container"> <div class="row"> <div class="col-md-4"> <div class="card mb-4 shadow-sm" style="border-radius: 10px;"> <img src="images/coordinator/Kalpana_Civil.jpg" alt="Patil Kalpana" class="card-img-top" style="border-radius: 10px 10px 0 0;"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mrs Patil Kalpana</h5> <p class="card-text" style="color: #6c757d;">Civil Engineering</p> </div> </div> </div> <div class="col-md-4"> <div class="card mb-4 shadow-sm" style="border-radius: 10px;"> <img src="images/coordinator/Dipali_ENTC.jpg" alt="Dipali Chhatrikar" class="card-img-top" style="border-radius: 10px 10px 0 0;"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mrs Dipali Chhatrikar</h5> <p class="card-text" style="color: #6c757d;">E & TC</p> </div> </div> </div> <div class="col-md-4"> <div class="card mb-4 shadow-sm" style="border-radius: 10px;"> <img src="images/coordinator/kulkarni.jpg" alt="Kulkarni O G" class="card-img-top" style="border-radius: 10px 10px 0 0;"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mr. Kulkarni O G</h5> <p class="card-text" style="color: #6c757d;">Mechanical Engineering</p> </div> </div> </div> </div> <div class="row"> <div class="col-md-4"> <div class="card mb-4 shadow-sm" style="border-radius: 10px;"> <img src="images/coordinator/Archana_IT.jpg" alt="Archana Jadhav" class="card-img-top" style="border-radius: 10px 10px 0 0;"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mrs. Archana Jadhav</h5> <p class="card-text" style="color: #6c757d;">Information Technology</p> </div> </div> </div> <div class="col-md-4"> <div class="card mb-4 shadow-sm" style="border-radius: 10px;"> <img src="images/coordinator/Dr Namdev_AR.png" alt="Namdev Patil" class="card-img-top" style="border-radius: 10px 10px 0 0;"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Dr. Namdev Patil</h5> <p class="card-text" style="color: #6c757d;">Automation & Robotics</p> </div> </div> </div> -->
+
+
+<div class="container"> <div class="row"> <div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/Kalpana\_Civil.jpg" alt="Patil Kalpana" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mrs Patil Kalpana</h5> <p class="card-text" style="color: #6c757d;">Civil Engineering</p> </div> </div> </div> <div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/Dipali\_ENTC.jpg" alt="Dipali Chhatrikar" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mrs Dipali Chhatrikar</h5> <p class="card-text" style="color: #6c757d;">E & TC</p> </div> </div> </div> <div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/kulkarni.jpg" alt="Kulkarni O G" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mr. Kulkarni O G</h5> <p class="card-text" style="color: #6c757d;">Mechanical Engineering</p> </div> </div> </div> </div> <div class="row"> <div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/Archana\_IT.jpg" alt="Archana Jadhav" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mrs. Archana Jadhav</h5> <p class="card-text" style="color: #6c757d;">Information Technology</p> </div> </div> </div> <div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/Dr Namdev\_AR.png" alt="Namdev Patil" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Dr. Namdev Patil</h5> <p class="card-text" style="color: #6c757d;">Automation & Robotics</p> </div> </div> </div>
+
+
+<div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/amrutacs.png" alt="Amruta Hingmire" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mrs Amruta Hingmire </h5> <p class="card-text" style="color: #6c757d;">Computer Engineering</p> </div> </div> </div>
+
+
+
+
+<div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/Babasaheb_CSBS.jpg" alt="Mr. Kamble Babasaheb" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mr. Kamble Babasaheb</h5> <p class="card-text" style="color: #6c757d;">CSBS</p> </div> </div> </div>
+
+
+
+
+
+
+<div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/amrutaE.jpg" alt="Amruta Udapurkar" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Ms Amruta Udapurkar </h5> <p class="card-text" style="color: #6c757d;">Electrical Engineering </p> </div> </div> </div>
+
+
+
+
+<div class="col-md-4 p-3"> <div class="card mb-4 shadow-sm"> <img src="images/coordinator/Pramila.png" alt="Pramila" class="card-img-top img-padding" style="border-radius: 50%"> <div class="card-body"> <h5 class="card-title" style="color: #007bff;">Mrs Pramila Pareek </h5> <p class="card-text" style="color: #6c757d;">MBA</p> </div> </div> </div>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+        `;
+      }else if (selectedText === "MS Student's Corner"){
+      
+        divContent.innerHTML=`
+       
+
+          <div class="col-md-12" style="">
+            <ul class="nav nav-pills nav_tabs" style="padding:0px;margin:0%; border-radius: 10px;">
+                <li class="" style="display: inline; padding:3px;">
+                    <button class="btn-sml but btn-outline-success  active " type="button" style="border-radius: 5px;" data-toggle="tab" href="#sc1">Entrance Exams</button>
+                </li>
+                <li style="display: inline;padding:3px;">
+                    <button class="btn-sml but btn-outline-success me-2 " type="button" style="border-radius: 5px;" data-toggle="tab" href="#sc2">ABROAD HIGHER STUDY ( Master Degree )</button>
+                </li>
+                <li style="display: inline;padding:3px;">
+                    <button class="btn-sml but btn-outline-success me-2" type="button" style="border-radius: 5px;" data-toggle="tab" href="#sc3">Internship (Stipend)</button>
+                </li>
+                
+                <!-- <li style="display: inline;padding:3px;">
+                    <button class="btn-sml but btn-outline-success me-2" type="button" style="border-radius: 5px;" data-toggle="tab" href="#sc3">Expenses for Internship</button>
+                </li> -->
+
+				
+            </ul>
+        </div>
+        
+        
+        
+							
+				<div class="tab-content">
+				
+					<div id="sc1" class="tab-pane fade in active">
+						<div class="col-md-12">
+							<h4><strong>Entrance Exams for Pursuing Masters in Abroad:</strong></h4>
+							<img src="student-corner-entrance-exams.jpg" class="img-responsive" width="80%">
+						</div>
+					</div>
+					
+					<div id="sc2" class="tab-pane fade">
+						<div class="col-md-12">
+						
+
+
+
+
+
+							
+							<div class="container " style="font-size: larger;">
+								<h3 class="stext border-golden-bottom">Abroad Higher Study (Master Degree)</h3>
+								<table class="table table-bordered">
+								  <thead>
+									
+									<tr>
+									  <th>Sr No</th>
+									  <th>Student Name</th>
+									  <th>Year</th>
+									  <th>University Name</th>
+									</tr>
+									<tr>
+									<th colspan="4" class="text-center">2020-21</th>
+									</tr>
+								  </thead>
+								  <tbody>
+									
+									<tr>
+									  <td >1</td>
+									  <td>DIVYA BALASAHEB PATIL</td>
+									  <td>2020-21</td>
+									  <td>Master of Data Science (Monash University Melbourne, Australia)</td>
+									</tr>
+									<tr>
+										<td >2</td>
+									  <td>KARINA PARESH MAIYANI</td>
+									  <td>2020-21</td>
+									  <td>Master of Data Science (Monash University Melbourne, Australia)</td>
+									</tr>
+									<tr>
+										<td >3</td>
+									  <td>MEHUL PATEL</td>
+									  <td>2020-21</td>
+									  <td>MS (Loyola Marymount University Los Angeles, USA)</td>
+									</tr>
+									<tr>
+										<td >4</td>
+									  <td>YASH DHANANJAY PRADHAN</td>
+									  <td>2020-21</td>
+									  <td>MSC COMPUTER SCIENCE (Northumbria University, UK)</td>
+									</tr>
+									<tr>
+										<td >4</td>
+									  <td>PATIL BHAVESH DILIP</td>
+									  <td>2020-21</td>
+									  <td>M. Sc. Mathematical Modelling, simulation & optimization (University at Koblenz Landau)</td>
+									</tr>
+									<tr>
+										<td >5</td>
+									  <td>DEOKAR ADITYA VINOD</td>
+									  <td>2020-21</td>
+									  <td>Master at University of Florida (Herbert Wertheim College of Engineering)</td>
+									</tr>
+									<tr>
+										<td >6</td>
+									  <td>MANE RUTURAJ RAMESH</td>
+									  <td>2020-21</td>
+									  <td>MS at Clemson University, USA</td>
+									</tr>
+									<tr>
+										<td >7</td>
+									  <td>VIJAYKUMAR VRINDA MANKARE</td>
+									  <td>2020-21</td>
+									  <td>MSc in Aerospace Engineering (Swansea University)</td>
+									</tr>
+									<tr>
+										<th colspan="4" class="text-center">2021-22</th>
+										</tr>
+									<tr>
+										<td>1</td>
+										<td>SOHAM MANGESH RAUT</td>
+										<td>2021-22</td>
+										<td>MS (Binghamton University, New York, USA)</td>
+									  </tr>
+									  <tr>
+										<td>2</td>
+										<td>PRASANNA PRASHANT KOTTUR</td>
+										<td>2021-22</td>
+										<td>BUSINESS ANALYTICS MS (The University of Texas at Austin)</td>
+									  </tr>
+									  <tr>
+										<td>3</td>
+										<td>SUKESH SUNIL JIWANE</td>
+										<td>2021-22</td>
+										<td>MS (Universität Stuttgart, Germany)</td>
+									  </tr>
+									  <tr>
+										<td>4</td>
+										<td>PRADNYA RAVINDRA NIKAM</td>
+										<td>2021-22</td>
+										<td>MS (Universität Stuttgart, Germany)</td>
+									  </tr>
+									  <tr>
+										<td>5</td>
+										<td>DESHMUKH ANAGHA R</td>
+										<td>2021-22</td>
+										<td>College of Architecture & the Arts, University of Illinois at Chicago, USA</td>
+									  </tr>
+									  <tr>
+										<td>6</td>
+										<td>CHAUDHARI SWARIT AVINASH</td>
+										<td>2021-22</td>
+										<td>MS at University of Cincinnati, USA</td>
+									  </tr>
+									  <tr>
+										<td>7</td>
+										<td>SHINDE PRATHAMESH MAHENDRA</td>
+										<td>2021-22</td>
+										<td>Synergy Graduate Marine Engineering Program</td>
+									  </tr>
+									  <tr>
+										<td>8</td>
+										<td>Sahil Darekar</td>
+										<td>2021-22</td>
+										<td>Technology Management MS program at the University of Massachusetts Dartmouth, USA</td>
+									  </tr>
+									  <tr>
+										<td>9</td>
+										<td>SAWALE SANKET</td>
+										<td>2021-22</td>
+										<td>M.Sc. Supply Chain Management (English) (Rheinland, Germany)</td>
+									  </tr>
+									  <tr>
+										<td>10</td>
+										<td>Harshwardhan Vivek Pawar</td>
+										<td>2021-22</td>
+										<td>MASTER OF MANAGEMENT (La Trobe University, Australia)</td>
+									  </tr>
+									  
+									  <tr>
+										<th colspan="4" class="text-center">2022-23</th>
+										</tr>
+									  <tr>
+										<td >1</td>
+										<td>LAVESH RAJESH JAYKAR</td>
+										<td>2022-23</td>
+										<td>MS (Syracuse University, New York, United States)</td>
+									  </tr>
+									  <tr>
+										<td >2</td>
+										<td>YASH MAHENDRAKUMAR WANI</td>
+										<td>2022-23</td>
+										<td>MS (The University of Texas at Dallas, United States)</td>
+									  </tr>
+									  <tr>
+										<td >3</td>
+										<td>JADHAV SIDDHESH PRAKASH</td>
+										<td>2022-23</td>
+										<td>Bergische University Wuppertal, Germany</td>
+									  </tr>
+									  <tr>
+										<td >4</td>
+										<td>KAUSTUBH HEMANT KEDAR</td>
+										<td>2022-23</td>
+										<td>MSc. International Finance (Financial Market and Risk Management) (Neoma Business School)</td>
+									  </tr>
+									  <tr>
+										<td>5</td>
+										<td>BHAVESH AJIT PANDE</td>
+										<td>2023-24</td>
+										<td>MBA at Indira School of Business Studies</td>
+									  </tr>
+									  <tr>
+										<td>6</td>
+										<td>ADHAV SIDDHI GANESH</td>
+										<td>2023-24</td>
+										<td>MSc at University of The West of England, UK</td>
+									  </tr>
+									  <tr>
+										<td>7</td>
+										<td>NACHIKET BHATE</td>
+										<td>2023-24</td>
+										<td>MS in Mechanical Engineering at University of Michigan, USA</td>
+									  </tr>
+									  <tr>
+										<td>8</td>
+										<td>PALASH RAUT</td>
+										<td>2023-24</td>
+										<td>MS in Industrial Engineering at New York University, USA</td>
+									  </tr>
+									  <tr>
+										<th colspan="4" class="text-center">2023-24</th>
+										</tr>
+									  <tr>
+										<td >1</td>
+										<td>SHANTANU SHINDE</td>
+										<td>2023-24</td>
+										<td>MS at University of Houston, Texas, USA</td>
+									  </tr>
+									  <tr>
+										<td >2</td>
+										<td>ABHISHEK PRAKASH SUPE</td>
+										<td>2023-24</td>
+										<td>MS at Yuan Ze University, Taoyuan City, Taiwan (Fully Funded with Rs 30000 PM as stipend)</td>
+									  </tr>
+									  <tr>
+										<td >3</td>
+										<td>SHWETA ASHWANI</td>
+										<td>2023-24</td>
+										<td>MS at Chang Gung University, Taiwan (Fully Funded with Rs 30000 PM as stipend)</td>
+									  </tr>
+									  <tr>
+										<td >4</td>
+										<td>Chinmay Kaitikwar</td>
+										<td>2023-24</td>
+										<td>MS at Yuan Ze University, Taoyuan City, Taiwan (Fully Funded with Rs 30000 PM as stipend)</td>
+									  </tr>
+									  <tr>
+										<td >5</td>
+										<td>Rujula More</td>
+										<td>2023-24</td>
+										<td>MS at Oregon State University, USA</td>
+									  </tr>
+									
+								</tbody>
+							</table>
+						</div>
+						</div>
+					</div>
+					
+					<div id="sc3" class="tab-pane fade">
+						<div class="container ">
+							<h3 class="stext border-golden-bottom">Internship and Stipend Information</h3>
+							
+							<!-- Internship and Stipend Table -->
+							<table class="table table-bordered"  style="font-size:larger;">
+							  <thead>
+								<tr>
+								  <th>Sr No</th>
+								  <th>Student Name</th>
+								  <th>University Name</th>
+								  <th>Branch</th>
+								  <th>Internship (5 Months)/ MS</th>
+								  <th>Stipend Amount</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>1</td>
+								  <td>Anup Kshirsagar</td>
+								  <td>Chang Gung Univ Taiwan</td>
+								  <td>Electrical</td>
+								  <td>Internship (January – June 2024) & MS (September 2024)</td>
+								  <td>Rs 40500 PM stipend, MS Fully Funded with Rs 30000 PM as stipend</td>
+								</tr>
+								<tr>
+								  <td>2</td>
+								  <td>Vaishnavi Ekhande</td>
+								  <td>Chang Gung Univ Taiwan</td>
+								  <td>Electrical</td>
+								  <td>Internship (January – June 2024)</td>
+								  <td>Rs 40500 PM stipend</td>
+								</tr>
+								<tr>
+								  <td>3</td>
+								  <td>Atharva Korade</td>
+								  <td>Chang Gung Univ Taiwan</td>
+								  <td>Electrical</td>
+								  <td>MS (September 2024)</td>
+								  <td>MS Fully Funded with Rs 30000 PM as stipend</td>
+								</tr>
+								<tr>
+								  <td>4</td>
+								  <td>Saurabh Bhagwant Mohole</td>
+								  <td>Yan Ze University Taiwan</td>
+								  <td>Computer Sc</td>
+								  <td>Internship (January – June 2024)</td>
+								  <td>Total stipend amount Rs 135000</td>
+								</tr>
+								<tr>
+								  <td>5</td>
+								  <td>Vinay Shivaji Vyankatkar</td>
+								  <td>Yan Ze University Taiwan</td>
+								  <td>IT</td>
+								  <td>Internship (January – June 2024)</td>
+								  <td>Total stipend amount Rs 135000</td>
+								</tr>
+								<tr>
+								  <td>6</td>
+								  <td>Pratik Ughade</td>
+								  <td>Chang Gung Univ Taiwan</td>
+								  <td>Electrical</td>
+								  <td>Internship (January – June 2024)</td>
+								  <td>Rs 40500 PM stipend</td>
+								</tr>
+								<tr>
+								  <td>7</td>
+								  <td>YENKAR SHRUTI</td>
+								  <td>Chang Gung Univ Taiwan</td>
+								  <td>IT</td>
+								  <td>Internship (January – June 2024)</td>
+								  <td>Rs 40500 PM stipend</td>
+								</tr>
+								<tr>
+								  <td>8</td>
+								  <td>Prof. Somnath Kale</td>
+								  <td>National San Yat Sen University</td>
+								  <td>Mechanical</td>
+								  <td>PhD</td>
+								  <td>Rs 65000 PM as stipend, PhD Program fully funded</td>
+								</tr>
+							  </tbody>
+							</table>
+							
+							<!-- Students Completed Internship from Taiwan -->
+							<h3 class="stext border-golden-bottom">Students Completed Internship from Taiwan (January 2023 - June 2023)</h3>
+							<table class="table table-bordered">
+							  <thead>
+								<tr>
+								  <th>Sr No</th>
+								  <th>Student Name</th>
+								  <th>University Name</th>
+								  <th>Branch</th>
+								  <th>Internship (5 Months)</th>
+								  <th>Stipend Amount</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>1</td>
+								  <td>Chinmay Kaitikwar</td>
+								  <td>Yuan Ze University Taiwan</td>
+								  <td>IT</td>
+								  <td>Internship</td>
+								  <td>Total amount Rs 150000</td>
+								</tr>
+								<tr>
+								  <td>2</td>
+								  <td>Abhishek Supe Prakash</td>
+								  <td>Yuan Ze University Taiwan</td>
+								  <td>Mechanical</td>
+								  <td>Internship</td>
+								  <td>Total amount Rs 150000</td>
+								</tr>
+								<tr>
+								  <td>3</td>
+								  <td>Rujula More</td>
+								  <td>Yuan Ze University Taiwan</td>
+								  <td>IT</td>
+								  <td>Internship</td>
+								  <td>Total amount Rs 150000</td>
+								</tr>
+								<tr>
+								  <td>4</td>
+								  <td>Shubham Mhaske</td>
+								  <td>Yuan Ze University Taiwan</td>
+								  <td>ENTC</td>
+								  <td>Internship</td>
+								  <td>Total amount Rs 150000</td>
+								</tr>
+							  </tbody>
+							</table>
+							
+							<!-- King Mongkut’s Institute of Technology, Thailand –KMITL -->
+							<h3 class="stext border-golden-bottom">King Mongkut’s Institute of Technology, Thailand –KMITL</h3>
+							<table class="table table-bordered">
+							  <thead>
+								<tr>
+								  <th>Duration</th>
+								  <th>Students Completed</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>9th July - 7th Aug 2020</td>
+								  <td>39</td>
+								</tr>
+								<tr>
+								  <td>1st March - 31st March 2021</td>
+								  <td>68</td>
+								</tr>
+								<tr>
+								  <td>1st March - 31st March 2022</td>
+								  <td>32</td>
+								</tr>
+							  </tbody>
+							</table>
+						  </div>
+					</div>
+					
+					<div id="sc4" class="tab-pane fade">
+						<div class="col-md-12">
+						
+							<br>
+							<div class="table-responsive"> 
+								<table class="table table-bordered table-responsive para1">	
+									<tbody>
+										<tr class="table-row">
+											<td colspan="3" width="660" valign="top" nowrap="">
+												<p align="center">
+													<strong>
+														Database with answers related to Higher studies(MS)
+													</strong>
+												</p>
+												<p align="center">
+													<strong> </strong>
+												</p>
+											</td>
+										</tr>
+										<tr class="table-row">
+											<td width="54" valign="top" nowrap="">
+												<p align="center">
+													<strong>Sr. No</strong>
+												</p>
+											</td>
+											<td width="279" valign="top" nowrap="">
+												<p align="center">
+													<strong>FAQs</strong>
+												</p>
+											</td>
+											<td width="327" valign="top" nowrap="">
+												<p align="center">
+													<strong>Answer</strong>
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													1
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													While booking the center for GRE test, what to choose
+													prometric center or the other one? how does it differ from
+													each other?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													It is better to check the individual center prior to
+													signing up for the GRE test and seek feedback from students
+													who are just completing their exams. Generally speaking,
+													prometric centers should be better equipped than other
+													centers.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													2
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													What is WES and how it will be help?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													WES is a non for profit agency that evaluates a student’s
+													transcript and credentials and calculates a GPA (on a 4.0
+													scale). Many graduate programs have made credential
+													evaluation mandatory as the admission committee is unable
+													to decipher the transcripts.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													3
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													How does the admission committee of a college verify the
+													LOR's if they are from a general public mail domains
+													(Gmail/Yahoo etc)? Also if I take the LOR on the letter
+													head of the college, but the mail id is a public mail id.
+													Will this affect the admission process?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													Integrity and honesty are pillars of the US education
+													system. Many colleges will give the benefit of doubt to the
+													student. However, where there is a doubt or concern, the
+													Admission Committee will contact the recommender directly.
+													It is always better to at least use a college letter head
+													if the recommender is using a public email id.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													4
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													Which will be better MS in Electrical Engineering or MS in
+													Engineering Management as per job scopes?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													It depends on a student’s strength and weaknesses. Both
+													programs offer job prospects – MS in Electrical Engineering
+													will provide research or technical sales &amp; marketing
+													driven jobs while MS in Engineering Management will provide
+													consulting, administration and technical sales &amp;
+													marketing roles.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													5
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													What is H1B lottery system?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													H1B lottery system is a process that has been adopted by US
+													for allocation of H1B work visas. US has a preset number of
+													visas that it issues on an annual basis. The lottery system
+													is used to provide a fair and equitable system by which
+													every candidate has the same opportunity to secure a visa.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													6
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													How important, apart from the course one wishes to pursue,
+													is location of the university when we consider facts like
+													ease of getting internships, moderate/low cost of living,
+													moderate climatic conditions?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													Location is essential when deciding a university. When
+													evaluating location, it is important to gain a perspective
+													of the industries and companies represented in the
+													vicinity. For example, if a student is considering pursuing
+													a MS in CS, he should seriously look at Silicon Valley,
+													Boston, Seattle, etc.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													7
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													How many years of work ex is considered good for MS
+													programs?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													Relevant work experience prior to pursuing a graduate
+													program will help a student in his MS program as well as
+													when he or she graduates. One to three years of experience
+													is considered good.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													8
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													Will lack of extracurricular activities or non-involvement
+													in volunteering services like NSS affect my chances of
+													getting admit in a U.S. university for Masters?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													It depends on how a student markets himself in the SOP.
+													Lack of activities in itself is not a “deal-breaker”.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													9
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													What are the pros and cons of doing one year masters in
+													USA?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													The pros of pursuing the one year Masters is that you are
+													ready to enter the workforce sooner and the costs
+													associated with the program is generally less. The negative
+													is that you will not get a chance to secure an internship,
+													which usually converts into a full-time job.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													10
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													What do you think was the best part of your profile that
+													helped you get the funding?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													Funding is based on various aspects of the profile.
+													Generally, the admission committee looks at past
+													research/teaching experience, recommendations, statement of
+													purpose and GRE/TOEFL scores. Communication with a
+													professor helps in securing funding.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													11
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													If I get admission from any university without fulfilling
+													Language proficiency (like university's IELTS requirement-
+													6.5, myscore-6), then what it will be stated in my I-20?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													No it will not be stated. However, the I20 might mention
+													that the student requires additional Education as a Second
+													Language (ESL) classes prior to matriculating to the MS
+													program.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													12
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													Want to apply for spring 2016, when should I take both
+													exams (GRE and TOEFL) so that I can get chance for
+													scholarship and RA / TA / GA?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													Yes, one should take both exams in case a student wants to
+													apply for Spring 2016. Ideally, the student should complete
+													the exams at the earliest possible date as the deadlines
+													are approaching.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													13
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													Are there any Universities that doesn’t require GRE for MS?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													Not all MS programs require GRE. Many technical programs do
+													require the GRE, but it depends on a program by program
+													basis. You can learn more about such universities on MS
+													without GRE in US.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													14
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													Is there any special requirement for under -18 students to
+													study in Canada?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													If you are under 18, you need to submit a custodian letter
+													in your visa application along with the rest of your
+													documents. Your IDP counsellor will help you with the same
+													when you apply for your visa.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													15
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													What is the duration of various courses in Australia?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													The undergraduate courses in Australian universities are
+													for three years. The duration of the postgraduate courses
+													is one year and the Master’s degree by research is two year
+													if full-time. If the candidate takes Master’s degree by
+													research part-time, it will take four years to complete the
+													course with the final research paper. The PhD courses take
+													four years to complete if it is full time and a maximum of
+													eight years if it is part time.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													16
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													How to get Australian student visa?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													The student visa for Australia can be applied online. In
+													order to start the application process, the candidate must
+													create an ImmiAccount . Fill up the application form that
+													is available online. The candidate must provide as much
+													information as possible in the application form. Incomplete
+													applications will take more time for processing. For the
+													completion of the application form, the candidate must
+													attach the supporting documents. The documents for each
+													subclass are different.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													17
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													What is the study cost in Australia?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													The official government site for international students,
+													Study Australia, says that the tuition fee for an
+													undergraduate course for international student in Australia
+													varies from AU$15,000 to AU$33,000 (US$30,810) per year.
+													The postgraduate study cost for one year for international
+													students is from AU$20,000 to $37,000 and PhD is from
+													AU$14,000 to $37,000.
+												</p>
+											</td>
+										</tr>
+										<tr>
+											<td width="54" valign="top">
+												<p align="center">
+													18
+												</p>
+											</td>
+											<td width="279" valign="top">
+												<p>
+													What are the work during study opportunities?
+												</p>
+											</td>
+											<td width="327" valign="top">
+												<p>
+													The students of subclass 570-576 (student visa) have work
+													permit issued along with their visa. However, the
+													candidates with student visa are not allowed to work for
+													more than 40 hours. The student should not start working
+													before the commencement of the course in Australia.
+												</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+									 
+						</div>
+					</div>
+				
+				</div>
+			
+			</div>`;
+      
+      }else if (selectedText === 'Partnerships') {
+        divContent.innerHTML = `<div class="wrapper">
+          <h3 class="stext border-golden-bottom">MOU Highlights</h3>
+
+          <div class=" row">
+             
+                
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/YZU_Logo.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p class="mb-5" style="width:fit"> MoU with University of YZU .</p> </div>
+                  </div>
+                </div>
+              </div>
+           
+
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/IRLogo1.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p class="mb-5"> MoU with Chang Gung University,Taiwan </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/IRLogo2.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p class="mb-5"> MoU with MoU with Asia Pacific University,Malaysia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/UM-Logo_new_-version.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p class="mb-5"> MoU with University of Malaya.</p>   </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+<!-- 
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/logo-universiti-di-negara-malaysia-kumpulan-logo-indonesia-removebg-preview.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p  class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+
+
+              
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/sannio-3-500X500.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p class="">	MoU with University of Sannio (UNIVERSITÀ DEGLI STUDIDEL SANNIO) Benevento,Italy.</p> </div>
+                  </div>
+                </div>
+              </div>
+
+             
+              
+
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/vsb-tuo_ochranna_zona-en.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p class="">	MoU with VSB - Technical University of Ostrava,Czech Republic.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/universiti-malaysia-pahang-logo.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p class=""> MoU with Universiti Malaysia Pahang (UMP) (English: University of Malaysia, Pahang).</p>  </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+              <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+                <div class="container2">
+                  <div class="front p-2" >
+                    <img src="images/PetronusUnivMalaysia.png" alt="Alternate Text" class="img-fluid">
+                  </div>
+                  <div class="back bg-app-blu">
+                    <div class="inner mb-5">
+                      <p class="">MoU with King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand.</p> </div>
+                  </div>
+                </div>
+              </div>
+              
+         
+         
+         <div class="col-4 col-xl-3 mt-4 hover " ontouchstart="this.classList.toggle('hover');">
+			<div class="container2">
+			  <div class="front p-2" >
+				<img src="images/King-mongut.png" alt="Alternate Text" class="img-fluid">
+			  </div>
+			  <div class="back bg-app-blu">
+				<div class="inner mb-5">
+				  <p class="">MoU with Universiti Teknologi PETRONAS-Malaysia .</p> </div>
+			  </div>
+			</div>
+		  </div>
+		  
+		</div>
+	 </div>
+
+
+
+
+    
+
+</div>
+</div>
+          
+      </div>
+         
+         
+         
+         
+         
+          `;
+      } else if (selectedText === 'International Guest Visits') {
+        divContent.innerHTML = `
+		<h3 class="stext border-golden-bottom">International Guest Visits</h3>
+		
+        <section class="my-5 card-hover-text">
+			<div class="row">
+				
+  
+				<div class="col-md-6 col-lg-4 my-4">
+					<div class="col img-thumbnail w-100 container1">
+						<!--Image-->
+						<img src="images/IRimage.png" class="img-fluid shadow-img rounded-3" alt="no img">
+						<div class="testText overlay">
+							<div class="inner m-4 text">
+								<!-- Text -->
+								<h4 class="text-white">
+									University of U.S
+								</h4>
+								<p class="newtext">
+									Dr. William Oake from Purdue University (U.S) visited the Janatics Center of Excellence for Industry 4.0 on 27.11.2023
+								</p>
+							</div>
+						</div>
+					  
+					</div>
+					<div class="text-center py-3">
+						<h5 class="text-theme-dark"> University of U.S </h5>
+					</div>
+				</div> 
+  
+				<div class="col-md-6 col-lg-4 my-4">
+					<div class="col img-thumbnail w-100 container1">
+						<!--Image-->
+						<img src="images/IR110.png" class="img-fluid shadow-img rounded-3" alt="no img">
+						<div class="testText overlay">
+							<div class="inner m-4 text">
+								<!-- Text -->
+								<h4 class="text-white">
+									University of Sussex.
+								</h4>
+								<p class="newtext">
+									Expert session delivered by Professor Dr. Ian Wakeman, of  University of Sussex, UK on 3/3/2023.
+								</p>
+							</div>
+						</div>
+					
+					</div>
+					<div class="text-center py-3">
+						<h5 class="text-theme-dark">University of Sussex </h5>
+					</div>
+				</div>
+  
+				<div class="col-md-6 col-lg-4 my-4">
+					<div class="col img-thumbnail w-100 container1">
+						<!--Image-->
+						<img src="images/IR109.png" class="img-fluid shadow-img rounded-3" alt="no img">
+						<div class="testText overlay">
+							<div class="inner m-4 text">
+								<!-- Text -->
+								<h4 class="text-white">
+									Sheffield Hallam University UK .
+								</h4>
+								<p class="newtext">
+									Expert  Session  delivered by Professor Dr. Hongwei Zang of  Sheffield Hallam University UK on 22/2/2023 .
+								</p>
+							</div>
+						</div>
+					   
+					</div>
+					<div class="text-center py-3">
+						<h5 class="text-theme-dark">Sheffield Hallam University UK. </h5>
+					</div>
+				</div>
+  
+				<div class="col-md-6 col-lg-4 my-4">
+					<div class="col img-thumbnail w-100 container1">
+						<!--Image-->
+						<img src="images/IR108.png" class="img-fluid shadow-img rounded-3" alt="no img">
+						<div class="testText overlay">
+							<div class="inner m-4 text">
+								<!-- Text -->
+								<h4 class="text-white">
+									Higher education at Taiwan .
+								</h4>
+								<p class="newtext">
+									Expert session  delivered by Ms Hullin Chen, Founder and CEO of Educare Taiwan on Scope of Higher education at Taiwan on 2/2/2023 .
+								</p>
+							</div>
+						</div>
+					   
+					</div>
+					<div class="text-center py-3">
+						<h5 class="text-theme-dark">Higher education at Taiwan. </h5>
+					</div>
+				</div>
+  
+  
+			
+  
+  
+				<div class="col-md-6 col-lg-4 my-4">
+					<div class="col img-thumbnail w-100 container1">
+						<!--Image-->
+						<img src="images/IR101 (1).png" class="img-fluid shadow-img rounded-3" alt="no img">
+						<div class="testText overlay">
+							<div class="inner m-4 text">
+								<!-- Text -->
+								<h4 class="text-white">
+									YUAN ZE Univ Taiwan .
+								</h4>
+								<p class="newtext">
+									MoU has been done with YUAN ZE Univ, Taiwan on 27/9/2022
+								</p>
+							</div>
+						</div>
+				   
+					</div>
+					<div class="text-center py-3">
+						<h5 class="text-theme-dark">YUAN ZE Univ Taiwan . </h5>
+					</div>
+				</div>
+  
+				<div class="col-md-6 col-lg-4 my-4">
+					<div class="col img-thumbnail w-100 container1">
+						<!--Image-->
+						<img src="images/IR102 (1).png" class="img-fluid shadow-img rounded-3" alt="no img">
+						<div class="testText overlay">
+							<div class="inner m-4 text">
+								<!-- Text -->
+								<h4 class="text-white">
+									YUAN ZE Univ Taiwan .
+								</h4>
+								<p class="newtext">
+									MoU has been done with YUAN ZE Univ, Taiwan on 27/9/2022
+								</p>
+							</div>
+						</div>
+					 
+					</div>
+					<div class="text-center py-3">
+						<h5 class="text-theme-dark">YUAN ZE Univ Taiwan . </h5>
+					</div>
+				</div>
+  
+  
+  
+  
+              
+
+      
+  
+			
+  
+  
+  
+  
+  
+			<div class="col-md-6 col-lg-4 my-4">
+			  <div class="col img-thumbnail w-100 container1">
+				  <!--Image-->
+				  <img src="images/PetronasMalaysia (1).png" class="img-fluid shadow-img rounded-3" alt="no img">
+				  <div class="testText overlay ">
+					  <div class="inner m-4 text">
+						  <!-- Text -->
+						  <h4 class="text-white">Institute of Technology PETRONAS Malaysia</h4>
+						  <p class="newtext">
+							MOU  signed with Institute of Technology PETRONAS Malaysia
+						  </p>
+					  </div>
+				  </div>
+			  
+			  </div>
+			  <div class="text-center py-3">
+				  <h5 class="text-theme-dark">Institute of Technology PETRONAS Malaysia. </h5>
+			  </div>
+		  </div>
+  
+  
+		  
+  
+  
+  
+  
+			
+  
+  
+  
+  
+				<div class="col-md-6 col-lg-4 my-4">
+				  <div class="col img-thumbnail w-100 container1">
+					  <!--Image-->
+					  <img src="images/jspmtaiwan2.png" class="img-fluid shadow-img rounded-3" alt="no img">
+					  <div class="testText overlay">
+						  <div class="inner m-4 text">
+							  <!-- Text -->
+							  <h4 class="text-white">Taiwan University  .</h4>
+							  <p class="newtext">		Ms Huilin Chen , CEO & Founder of EduCare, Taiwan. Initiation of MOU with Taiwan University</p>
+						  </div>
+					  </div>
+				   
+				  </div>
+				  <div class="text-center py-3">
+					  <h5 class="text-theme-dark">MOU With Educare Taiwan University</h5>
+				  </div>
+			  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+			   
+  
+  
+  
+  
+  
+			</div>
+  
+		</section>
+		
+		
+		
+		
+		`;
+      } else if (selectedText === 'IR Activities') {
+        divContent.innerHTML = `
+        <h3 class="stext border-golden-bottom">IR Activities</h3>
+         <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+            </tr>
+          </thead>
+          <tbody id="contextTable">
+			<tr>
+				<td>February 2024 – June 2024</td>
+				<td>Nine Students from Final year of different branches Electrical, IT, Computer Sc, Mechanical got Internship offer at universities like Chang Gung Univ Taiwan, Yan Ze University Taiwan and National University Taiwan . All students will get stipend amount of 1.5 Lakhs during their internship.</td>
+			  </tr>
+			  <tr>
+				<td>September 2024</td>
+				<td>Eight Students from Final year of different branches like Electrical, IT, Computer Sc, Mechanical got MS offer at universities like Chang Gung Univ Taiwan, Yan Ze University Taiwan and National University Taiwan . All students will get 100% Tuition fee and miscellaneous fee reimbursement and monthly stipend of Rs 30000 Per month.</td>
+			  </tr>
+			  <tr>
+				<td>February 2024</td>
+				<td>One faculty Prof. Somnath Kale from Mechanical Engineering dept got offer of PhD at National San Yat Sen University Taiwan with 100% Tuition fee and miscellaneous fee reimbursement and monthly stipend of Rs 65000 Per month.</td>
+			  </tr>
+			  <tr>
+				<td>June 2024</td>
+				<td>Aryan Vasant Shinde of CSE 2nd year going for one month Internship in Coventry University(UK).</td>
+			  </tr>
+			  <tr>
+				<td>22/2/2023</td>
+				<td>Expert Session delivered by Professor Dr. Hongwei Zang of Sheffield Hallam University UK.</td>
+			  </tr>
+			  <tr>
+				<td>2/2/2023</td>
+				<td>Expert session delivered by Ms Hullin Chen, Founder and CEO of Educare Taiwan on Scope of Higher education at Taiwan.</td>
+			  </tr>
+			  <tr>
+				<td>1/2/2023 to 1/6/2023</td>
+				<td>Three final year students of RSCOE have received offer letter for MS program with 100% Tuition fee and miscellaneous fee reimbursement and monthly stipend of Rs 27000.</td>
+			  </tr>
+			  <tr>
+				<td>1/2/2023 to 1/6/2023</td>
+				<td>Four final year students of RSCOE have completed of four months internship at Yuan Ze University Taiwan. Each student has received 1.5 lakhs scholarship.</td>
+			  </tr>
+			  <tr>
+				<td>22/8/2022 to 26/8/2022</td>
+				<td>22 Students visited to Singapore for one week educational tour. They have visited to National University and MDIS Singapore Campus. Some expert sessions were organized at MDIS Singapore.</td>
+			  </tr>
+			  <tr>
+				<td>27/9/2022</td>
+				<td>MoU has been done with YUAN ZE Univ, Taiwan.</td>
+			  </tr>
+			  <tr>
+				<td>28/6/2022</td>
+				<td>MoU has been done with Institute of Technology PETRONAS, Malaysia.</td>
+			  </tr>
+			  <tr>
+				<td>December 1-2, 2022</td>
+				<td>Joint International conference organized with Institute of Technology PETRONAS, Malaysia.</td>
+			  </tr>
+			  <tr>
+				<td>1/3/2022 to 31/3/2022</td>
+				<td>28 students have completed one month internship in virtual mode from KMITL Thailand.</td>
+			  </tr>
+			  <tr>
+				<td>Visit to Universiti Malaysia Pahang (UMP)</td>
+				<td>University of Malaysia, Pahang.</td>
+			  </tr>
+			  <tr>
+				<td>July- August 2020</td>
+				<td>One month E-internship at King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand. Total 39 students have completed an E-internship.</td>
+			  </tr>
+			  <tr>
+				<td>March-April 2021</td>
+				<td>One month E-internship at King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand. Total 62 students have completed an E-internship.</td>
+			  </tr>
+			  <tr>
+				<td>February 9 - 11, 2022</td>
+				<td>KMITL Virtual Workshop Season 2/2022.</td>
+			  </tr>
+			  <tr>
+				<td>April 15, 2022</td>
+				<td>Webinar conducted by Harvard University, USA on the topic Fundamentals of Computer Science and Guidance for non-IT Student’s to get into IT.</td>
+			  </tr>
+			  <tr>
+				<td>March-April 2022</td>
+				<td>One month E-internship at King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand. Total 32 students have completed an E-internship.</td>
+			  </tr>
+          </tbody>
+        </table> 
+		
+		`;
+      }   else if (selectedText === 'Testimonials') {
+        divContent.innerHTML = `
+
+
+        
+        <h3 class="stext border-golden-bottom">Testimonials</h3>
+     
+		<div class="row">
+			<div class="col-md-6">
+			  <div class="card" style="width: 100%;">
+				<div class="embed-responsive embed-responsive-16by9">
+				  
+				  <video src="v1.mp4" controls></video>
+				</div>
+				<div class="card-body">
+				  <h5 class="card-title border-golden-bottom" style="color: #8E0203;width: fit-content;">Sigapore Visit</h5>
+				 
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-6">
+			  <div class="card" style="width: 100%;">
+				<div class="embed-responsive embed-responsive-16by9">
+				
+				  <video src="v2.mp4" controls></video>
+				</div>
+				<div class="card-body">
+				  <h5 class="card-title border-golden-bottom" style="color: #8E0203;width: fit-content;">YZU Taiwan Internship</h5>
+				  
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-6">
+			  <div class="card" style="width: 100%;">
+				<div class="embed-responsive embed-responsive-16by9">
+				  
+				  <video src="v3.mp4" controls></video>
+				</div>
+				<div class="card-body">
+				  <h5 class="card-title border-golden-bottom" style="color: #8E0203;width: fit-content;">KMITL Thailand</h5>
+				 
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+
+        
+        `;
+      } else if (selectedText === 'International Research Grant') {
+        divContent.innerHTML = `
+       <div class="container">
+        <h3 class="stext border-golden-bottom"> International Research Grant Approval </h3>
+		<div class=" align-self-center">
+		<p><i>
+			2.5 Lakhs of Joint Research work : Intrinsic behavior of coconut wood – PLA composite filament for additive manufacturing with University of Malaysia, Pahang. (2021) - Dr Avinash Badade 
+		</i>   </p>
+		
+
+		
+			<img src="images/grant.png" alt="Girl in a jacket" style=" width: 60%;	height: 70%;">
+			
+	
+
+
+
+		<div class="col-md-6 col-lg-8 my-4">
+			<div class="col img-thumbnail w-100 container1">
+				<!--Image-->
+				<img src="images/IR104 (1).png" class="img-fluid shadow-img rounded-3" alt="no img">
+				<div class="testText overlay ">
+					<div class="inner m-4 text">
+						<!-- Text -->
+						<h4 class="text-white">
+							Institute of Technology PETRONAS, Malaysia.
+						</h4>
+						<p class="newtext">
+						  Joint International conference organized in December 1-2, 2022 with Institute of Technology PETRONAS, Malaysia
+						</p>
+					</div>
+				</div>
+			
+			</div>
+			<div class="text-center py-3">
+				<h5 class="text-theme-dark">Institute of Technology PETRONAS, Malaysia. </h5>
+			</div>
+		</div>
+	</div>
+        `;
+      } else if (selectedText === 'Achievements') {
+        divContent.innerHTML = `
+        <div class="container">
+          <h3 class="stext border-golden-bottom">Final Year Student/Faculty List (Year 2024) selected for Taiwan internship, MS & PhD</h3>
+          <div class="table-responsive">
+            <table class="table table-bordered" style="color: #212529; border-collapse: collapse;">
+              <thead class="thead-dark1" style="color: #fff; background-color: #8e0203; border-color: #8e0203;">
+                <tr>
+                  <th scope="col" style="padding: 8px;">Sr No</th>
+                  <th scope="col" style="padding: 8px;">Student Name</th>
+                  <th scope="col" style="padding: 8px;">University Name</th>
+                  <th scope="col" style="padding: 8px;">Branch</th>
+                  <th scope="col" style="padding: 8px;">Internship (5 Months)/ MS</th>
+                  <th scope="col" style="padding: 8px;">Stipend Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" style="padding: 8px;">1</th>
+                  <td style="padding: 8px;">Anup Kshirsagar</td>
+                  <td style="padding: 8px;">Chang Gung Univ Taiwan</td>
+                  <td style="padding: 8px;">Electrical</td>
+                  <td style="padding: 8px;">Internship & MS</td>
+                  <td style="padding: 8px;">Rs 40500 PM stipend</td>
+                </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Vaishnavi Ekhande</td>
+                <td>Chang Gung Univ Taiwan</td>
+                <td>Electrical</td>
+                <td>Internship</td>
+                <td>Rs 40500 PM stipend</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Atharva Korade</td>
+                <td>Chang Gung Univ Taiwan</td>
+                <td>Electrical</td>
+                <td>Internship & MS</td>
+                <td>Rs 40500 PM stipend</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Saurabh Bhagwant Mohole</td>
+                <td>Yan Ze University Taiwan</td>
+                <td>Computer Sc</td>
+                <td>Internship</td>
+                <td>Total amount Rs 135000</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Vinay Shivaji Vyankatkar</td>
+                <td>Yan Ze University Taiwan</td>
+                <td>IT</td>
+                <td>Internship</td>
+                <td>Total amount Rs 135000</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Pratik Ughade</td>
+                <td>Chang Gung Univ Taiwan</td>
+                <td>Electrical</td>
+                <td>Internship</td>
+                <td>Rs 40500 PM stipend</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>YENKAR SHRUTI</td>
+                <td>Chang Gung Univ Taiwan</td>
+                <td>IT</td>
+                <td>Internship</td>
+                <td>Rs 40500 PM stipend</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Aman Shaikh</td>
+                <td></td>
+                <td>IT</td>
+                <td>Under process</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Shaikh Mohammed Abuzar</td>
+                <td></td>
+                <td>Computer Sc</td>
+                <td>Under process</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>Pratik Ganesh Kinniwadi</td>
+                <td></td>
+                <td>Mechanical</td>
+                <td>Under process</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>Prof. Somnath Kale</td>
+                <td>National San Yat Sen University</td>
+                <td>Mechanical</td>
+                <td>PhD</td>
+                <td>Rs 65000 PM</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        `;
+      }else if (selectedText === 'Internship Expenses') { 
+		divContent.innerHTML = `
+		
+		<div class="container ">
+			<h3 class="stext border-golden-bottom">Expenses for Internship at KMITL Thailand</h3>
+			<p>KMITL will support the students with:</p>
+			<ul>
+			  <li>Transportation from/to airport-KMITL</li>
+			  <li>Accommodation free at KMITL dormitory (please note that students will need to pay for electricity and water bills)</li>
+			  <li>Tuition fees waived</li>
+			</ul>
+			<p>Approximately, one student expense for a month:</p>
+			<ul>
+			  <li>Dormitory: 4,000-6,000 THB</li>
+			  <li>Daily expenses: 300-500 THB a day (9,000-15,000 THB a month)</li>
+			</ul>
+			<p>Please share your students to apply using the online form at <a style="color:blue" href="https://oia.kmitl.ac.th/form3inbound-student/">https://oia.kmitl.ac.th/form3inbound-student/</a></p>
+			<p>For additional information, please visit the OIA website: <a style="color:blue" href="https://oia.kmitl.ac.th/incoming-programs/">https://oia.kmitl.ac.th/incoming-programs/</a></p>
+		  
+			<h3 class="stext border-golden-bottom">Expenses for Internship at Universiti Teknologi PETRONAS, Malaysia</h3>
+			<ol type="A">
+				<li>
+			<p>If your students would like to attend UTP for 6 months, University would suggest them to take a semester for exchange program and continue with Research Attachment Programme (RAP) for another 2 months. You may find more details on RAP <br/>Here:- <a style="color:blue" href="https://www.utp.edu.my/Pages/Students/Mobility%20Files/Outbound-Research-Attachment.aspx">https://www.utp.edu.my/Pages/Students/Mobility%20Files/Outbound-Research-Attachment.aspx</a>.</p>
+				</li><li><p>UTP Tuition Fee is waived for partner universities. Students must, however, pay the following fees:</p>
+				</li>
+
+			</ol>
+
+			<ul>
+				<hr>
+			  <li>Pre-Arrival Visa Application Fee (Attachment – Proforma Invoice): ± RM 985.00</li>
+			  <hr>
+			  <li>UTP SEP Admission Fee (to be paid to UTP):
+				<ul>
+				  <li>4 months accommodation (Twin sharing AC room including utilities)</li>
+				  <li>Immigration processing fee</li>
+				  <li>Airport pickup</li>
+				  <li>Orientation for arrival, departure program</li>
+				  <li>Access to campus facilities</li>
+				  <li>Wireless Internet access in campus</li>
+				</ul>
+			  </li>
+			</ul>
+			<hr>
+			<p>You may refer link here for more information about cost of living in Malaysia: <a style="color:blue" href="https://educationmalaysia.gov.my/money-cost/">https://educationmalaysia.gov.my/money-cost/</a></p>
+			<p>Please find attached, UTP Inbound Exchange Factsheet for more information. <a style="color:blue" href="https://drive.google.com/file/d/1xKkeRTG7DDu3tOnq92LtJhR4AB-Hr8Ve/view?usp=sharing">View Factsheet</a></p>
+		  
+		  </div>
+		
+		
+		
+		
+		
+		
+		
+		`;
+	  
+	 
+	  }else if (selectedText === 'International Visit Of RSCOE') {
+        divContent.innerHTML = `
+         
+		<h3 class="stext border-golden-bottom">International Visit Of RSCOE</h3>
+        <section class="my-5 card-hover-text">
+          <div class="row">
+              
+
+             
+
+          
+
+         
+
+
+              <div class="col-md-6 col-lg-4 my-4">
+                  <div class="col img-thumbnail w-100 container1">
+                      <!--Image-->
+                      <img src="images/IR107.png" class="img-fluid shadow-img rounded-3" alt="no img">
+                      <div class="testText overlay">
+                          <div class="inner m-4 text">
+                              <!-- Text -->
+                              <h4 class="text-white">
+                                  National University Taiwan.
+                              </h4>
+                              <p class="newtext">
+                                  •	Four  final year students  of RSCOE( Chinmay Kaitikwar IT,  Supe Abhishek Prakash Mechanical, RUJULA MORE IT  and Shubham Mhaske ENTC ) have been selected for four months (1/2/2023-1/6/2023) internship at YZU Taiwan . Each student has received 1.5 lakhs scholarship .   <br />
+                                  •	Out of four , three students have been selected for MS  program at National University Taiwan.<br />
+
+                              </p>
+                          </div>
+                      </div>
+                  
+                  </div>
+                  <div class="text-center py-3">
+                      <h5 class="text-theme-dark">Yuan Ze University Taiwan. </h5>
+                  </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 my-4">
+                  <div class="col img-thumbnail w-100 container1">
+                      <!--Image-->
+                      <img src="images/IR106.png" class="img-fluid shadow-img rounded-3" alt="no img">
+                      <div class="testText overlay">
+                          <div class="inner m-4 text">
+                              <!-- Text -->
+                              <h4 class="text-white">
+                                  National University and MDIS Singapore Campus.
+                              </h4>
+                              <p class="newtext">
+                                  22 Students visited to Singapore for one week (22/8/2022 to 26/8/2022) educational tour. They have visited to National University and MDIS Singapore Campus. Some expert sessions were organized at MDIS Singapore
+                              </p>
+                          </div>
+                      </div>
+                     
+                  </div>
+                  <div class="text-center py-3">
+                      <h5 class="text-theme-dark">National University and MDIS Singapore Campus. </h5>
+                  </div>
+              </div>
+
+      
+
+
+        
+
+
+
+
+            
+
+
+
+              <div class="col-md-6 col-lg-4 my-4">
+                  <div class="col img-thumbnail w-100 container1">
+                      <!--Image-->
+                      <img src="images/JspmDubai.png" class="img-fluid shadow-img rounded-3" alt="no img">
+                      <div class="testText overlay">
+                          <div class="inner m-4 text">
+                              <!-- Text -->
+                              <h4 class="text-white">BITS Pilani, Dubai Campus .</h4>
+                              <p class="newtext">	Meeting with delegates from BITS Pilani, Dubai Campus</p>
+                          </div>
+                      </div>
+                   
+                  </div>
+                  <div class="text-center py-3">
+                      <h5 class="text-theme-dark">BITS Pilani, Dubai Campus</h5>
+                  </div>
+              </div>
+
+
+
+
+              <div class="col-md-6 col-lg-4 my-4">
+                <div class="col img-thumbnail w-100 container1">
+                    <!--Image-->
+                    <img src="images/jspmtaiwan2.png" class="img-fluid shadow-img rounded-3" alt="no img">
+                    <div class="testText overlay">
+                        <div class="inner m-4 text">
+                            <!-- Text -->
+                            <h4 class="text-white">Taiwan University  .</h4>
+                            <p class="newtext">		Ms Huilin Chen , CEO & Founder of EduCare, Taiwan. Initiation of MOU with Taiwan University</p>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="text-center py-3">
+                    <h5 class="text-theme-dark">MOU With Educare Taiwan University</h5>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+             
+
+
+
+              <div class="col-md-6 col-lg-4 my-4">
+                  <div class="col img-thumbnail w-100 container1">
+                      <!--Image-->
+                      <img src="images/KMITL2.png" class="img-fluid shadow-img rounded-3" alt="no img" width="290">
+                      <div class="testText overlay ">
+                          <div class="inner m-4 text">
+                              <!-- Text -->
+                              <h4 class="text-white">King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand.</h4>
+                              <p class="newtext">	MoU Signed with King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand</p>
+                          </div>
+                      </div>
+                     
+                  </div>
+                  <div class="text-center py-3">
+                      <h5 class="text-theme-dark">King Mongkut's Institute of Technology Ladkrabang (KMITL), Thailand</h5>
+                  </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 my-4">
+                  <div class="col img-thumbnail w-100 container1">
+                      <!--Image-->
+                      <img src="images/RajmanglaThailand.png" class="img-fluid shadow-img rounded-3" alt="no img">
+                      <div class="testText overlay">
+                          <div class="inner m-4 text">
+                              <!-- Text -->
+                              <h4 class="text-white">Rajmangala University of Technology, Thailand.</h4>
+                              <p class="newtext">	Information Brochure shared by Dy. Director - International Studies, National University of Singapore</p>
+                          </div>
+                      </div>
+                     
+                  </div>
+                  <div class="text-center py-3">
+                      <h5 class="text-theme-dark">Rajmangala University of Technology, Thailand</h5>
+                  </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 my-4">
+                  <div class="col img-thumbnail w-100 container1">
+                      <!--Image-->
+                      <img src="images/UnCyberjaya.jpg" class="img-fluid shadow-img rounded-3" alt="no img">
+                      <div class="testText overlay">
+                          <div class="inner m-4 text">
+                              <!-- Text -->
+                              <h4 class="text-white">Multimedia University, Cyberjaya.</h4>
+                              <p class="newtext">	Dr. Ravi Joshi Dr. R.K. Jain along with Dr. Olivia and her Team for CIC at Chancellory, Multimedia University, Cyberjaya</p>
+                          </div>
+                      </div>
+                    
+                  </div>
+                  <div class="text-center py-3">
+                      <h5 class="text-theme-dark">Multimedia University, Cyberjaya</h5>
+                  </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 my-4">
+                  <div class="col img-thumbnail w-100 container1">
+                      <!--Image-->
+                      <img src="images/UnMalaysia.jpg" class="img-fluid shadow-img rounded-3" alt="no img">
+                      <div class="testText overlay">
+                          <div class="inner m-4 text">
+                              <!-- Text -->
+                              <h4 class="text-white">	University of Malaysia, Pahang</h4>
+                              <p class="newtext">	Memorandum of Understanding being Signed by Prof. Dr. Wan Azhar Bin Wan Yusoff, Vice-Chancellor, University of Malaysia, Pahang and Dr. Ravi Joshi, Director, Planning and Development, JSPM Group.</p>
+                          </div>
+                      </div>
+                      
+                  </div>
+                  <div class="text-center py-3">
+                      <h5 class="text-theme-dark">	University of Malaysia, Pahang</h5>
+                  </div>
+              </div>
+
+
+
+
+              <div class="col-md-6 col-lg-4 my-4">
+                  <div class="col img-thumbnail w-100 container1">
+                      <!--Image-->
+                      <img src="images/UnSingapore.jpg" class="img-fluid shadow-img rounded-3" alt="no img">
+                      <div class="testText overlay ">
+                          <div class="inner m-4 text">
+                              <!-- Text -->
+                              <h4 class="text-white">NUS-Singapore</h4>
+                              <p class="newtext">	Information Brochure shared by Dy. Director - International Studies, National University of Singapore</p>
+                          </div>
+                      </div>
+                    
+                  </div>
+                  <div class="text-center py-3">
+                      <h5 class="text-theme-dark">NUS-Singapore</h5>
+                  </div>
+              </div>
+
+
+          </div>
+
+      </section>
+         
+         
+         `;
+      } else if (selectedText === 'Contact Us') {
+        divContent.innerHTML = `
+        <div class="container">
+          <div class="row justify-content-center align-items-start  pt-2">
+       
+            <div class="col md-4">
+
+              <div class="card mb-4" style="max-width: 18rem;background-color: #e9e4de;">
+               
+                <div class="card-body text-success">
+                  <h5 class="card-title">Dr. Binod Kumar </h5>
+
+				  <p class="para1" style="text-align:center!important;">
+					<strong>Dean International Relations</strong> <br>
+					Professor in Department of Master Of Computer Application <br>
+					<strong>Email:</strong> <a href="mailto:dean_ir@jspmrscoe.edu.in">dean_ir@jspmrscoe.edu.in</a> <br> 
+					M: +91 9665548971
+					</p>
+                   </div>
+              </div>
+            </div>
+            
+
+          
+          </div>
+          
+          <div class="row_new  justify-content-center ">
+            <div class="" style="padding:0% 15% 0% 15%">	
+              <div id="frmcontact" style="
+              background-color: #f1e2cd;">
+                <form id="contact-form" action="thankyou.php" method="post" style="  border-radius: 5%;
+                padding: 20px;
+                background-color: #ffffff33;
+                margin: 2px;">   				
+                  <h3>Get in touch with us</h3>				
+                  <div class="row mt-3">						
+                    <div class="col-lg-12">
+                      <div class="form-group mt-1">
+                        <input type="text" name="firstName" class="form-control" id="firstName" placeholder="Your Name" required="" fdprocessedid="32oiw">
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group mt-1">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="" fdprocessedid="uesyn8">
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group mt-1">
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Mobile Number" pattern="[1-9]{1}[0-9]{9}" title="10 digit mobile number required" required="" fdprocessedid="3xx6oz">
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group mt-1">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">					  
+                      <div class="text-center"><button class="btn btn-primary" type="submit" name="submit" id="contact-submit" data-submit="...Sending" fdprocessedid="33izu9">Send Message</button></div>
+                    </div>	
+                  </div>
+                </form>
+              </div>
+              
+            </div>
+
+
+            
+          </div>
+          </div>
+        
+        </div>`;
+      } else {
+        divContent.innerText = 'Select a menu item.';
+      }
+    });
+  });
+</script>
+  </body>
+</html>
